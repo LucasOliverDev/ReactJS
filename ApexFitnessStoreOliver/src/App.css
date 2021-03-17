@@ -1,18 +1,30 @@
 header {
   text-align: center;
   display: flex;
+  background-color: lightseagreen;
+  border-radius: 0 0 5px 5px;
 }
 
 h1, nav {
-  width: 40%;
+  width: 100%;
+  color: white;
 }
 
 ul {
   list-style: none;
+  padding-top: 3%;
   display: flex;
   justify-content: space-around;
 }
 
 a {
   text-decoration: none;
+  margin-right: 50px;
+}
+
+.fa-shopping-cart:before {
+  font-size: 40px;
+  line-height: 100px;
+  margin-left: 700px;
+  margin-right: 100px;
 }

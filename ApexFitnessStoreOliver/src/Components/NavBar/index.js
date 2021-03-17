@@ -1,4 +1,5 @@
 import React from 'react';
+import { CartWidget } from '../FontAwesomeIcons';
 
 export const NavBar = () => {
     return <header>
@@ -12,5 +13,6 @@ export const NavBar = () => {
                             <li><a href="">Colchonetas</a></li>
                         </ul>
                     </nav>
+                    <CartWidget/>
            </header>
 }
