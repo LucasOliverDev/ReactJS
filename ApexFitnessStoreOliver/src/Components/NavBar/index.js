@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartWidget } from '../FontAwesomeIcons';
+import { CartWidget } from '../CartWidget';
 
 export const NavBar = () => {
     return <header>
