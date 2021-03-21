@@ -9,7 +9,7 @@ export const ItemListContainer = (props) => {
             </p>
             <ItemCount
                 descripcion = 'Mancuerna de 5kg'
-                carrito = ''
+                stock = '5'
             ></ItemCount>
         </div>
     )
