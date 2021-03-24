@@ -1,11 +1,10 @@
 import './itemCount.css';
 import React, {useState} from 'react';
 
-export const ItemCount = ({descripcion,  stock}) => {
+export const ItemCount = ({stock}) => {
     let [numero, setNumero] = useState(1);
     return (
         <div>
-            <p>Descripción: {descripcion}</p>
             <p>Stock: {stock}</p> 
             <div className='botonesTarjeta'>
                 <button disabled={numero<=0} onClick={()=>(setNumero (numero - 1))}>-</button>
