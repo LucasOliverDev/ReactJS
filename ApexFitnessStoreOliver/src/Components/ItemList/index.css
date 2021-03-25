@@ -1,0 +1,13 @@
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: space-around;
+}
