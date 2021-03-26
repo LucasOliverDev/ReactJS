@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ItemDetail } from '../ItemDetail';
 
 export function ItemDetailContainer () {
-    const [id, setItems] = useState([])
+    const [item, setItems] = useState([])
 
     useEffect(()=>{
         const getItems = new Promise((resolver)=>{
@@ -18,8 +18,7 @@ export function ItemDetailContainer () {
     },[])
     return (
         <div>
-            <button onClick={()=>(setItems (id))}>Descripción</button>
-            <ItemDetail id={id}/>
+            <ItemDetail item={item}/>
         </div>
     )
 }
