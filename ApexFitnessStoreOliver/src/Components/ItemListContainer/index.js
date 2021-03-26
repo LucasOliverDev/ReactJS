@@ -19,7 +19,7 @@ export function ItemListContainer () {
             setItems(resultado)
         })
         
-    })
+    },[])
     return (
         <div>
             <ItemList items={items}/>
