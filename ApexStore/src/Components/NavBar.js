@@ -1,17 +1,22 @@
 import React from 'react';
+import CartWidget from './CartWidget.js';
 import './NavBar.css';
 
 const NavBar = () => {
     return(
         <nav className='navBar'>
             <img src='./images/logo.svg' alt='Logo' />
-            <ul className='navBarList'>
-                <li><a href='#'>Camisetas</a></li>
-                <li><a href='#'>Musculosas</a></li>
-                <li><a href='#'>Pantalones</a></li>
-                <li><a href='#'>Shorts</a></li>
-                <li><a href='#'>Zapatillas</a></li>            
-            </ul>
+            <div className='navBarListAndCartWidget'>
+                <ul className='navBarList'>
+                    <li><a href={"http://google.com"}>Camisetas</a></li>
+                    <li><a href={"http://google.com"}>Musculosas</a></li>
+                    <li><a href={"http://google.com"}>Pantalones</a></li>
+                    <li><a href={"http://google.com"}>Shorts</a></li>
+                    <li><a href={"http://google.com"}>Zapatillas</a></li>            
+                </ul>
+                <CartWidget />
+            </div>
+            
         </nav>
     )
 }
