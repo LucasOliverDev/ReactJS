@@ -2,7 +2,7 @@ import React from 'react';
 import CartWidget from './CartWidget.js';
 import './NavBar.css';
 
-const NavBar = () => {
+function NavBar() {
     return(
         <nav className='navBar'>
             <img src='./images/logo.svg' alt='Logo' />
